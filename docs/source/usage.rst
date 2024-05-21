@@ -4,7 +4,7 @@ User guide page
 .. _installation:
 
 Dashboard overview
-------------
+------------------
 
 To use Lumache, first install it using pip:
 
@@ -13,7 +13,7 @@ To use Lumache, first install it using pip:
    (.venv) $ pip install lumache
 
 Individual pathogen details
-----------------
+---------------------------
 
 To retrieve a list of random ingredients,
 you can use the ``lumache.get_random_ingredients()`` function:
