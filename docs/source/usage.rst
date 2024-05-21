@@ -41,4 +41,19 @@ Salmonella Typhi
 - **Ciprofloxacin NS**: ciprofloxacin non-susceptible (MIC >=0.06 mg/L, due to presence of one or more *qnr* genes or mutations in *gyrA/parC/gyrB*)
 - **Ciprofloxacin R**: ciprofloxacin resistant (MIC >=0.5 mg/L, due to presence of multiple mutations and/or genes)
 
+Klebsiella pneumoniae
+~~~~~~~~~~~~~~~~~~~~~
+*Klebsiella pneumoniae* data are sourced from `Pathogenwatch <https://doi.org/10.1093/cid/ciab784>`_, which calls AMR (using `Kleborate <https://github.com/klebgenomics/Kleborate>`_) and genotypes (`MLST <https://doi.org/10.1128/jcm.43.8.4178-4182.2005>`_) from genomes assembled from public data. Last update: XX.
+
+**⚠️ Warning**: The *Klebsiella pneumoniae* data used in AMRnet are not yet curated for purpose-of-sampling, and therefore reflect the biases of global sequencing efforts which have been largely directed at sequencing ESBL and carbapenemase-producing strains or hypervirulent strains. Data curation efforts are ongoing however until then, please be careful when interpreting the data in the dashboard.
+
+Variable definitions
+• Genotypes: 7-locus MLST scheme for Klebsiella pneumoniae, maintained by Institut Pasteur.
+• AMR determinants are called using Kleborate v2, described here.
+
+Abbreviations
+• ESBL: extended-spectrum beta-lactamase
+• ST: sequence type
+
+
 
