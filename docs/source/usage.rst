@@ -23,8 +23,8 @@ Each plot has a dynamic legend to the right; click on an x-axis value to display
 Individual pathogen details
 ---------------------------
 
-Salmonella Typhi
-~~~~~~~~~~~~~~~~
+*Salmonella* Typhi
+~~~~~~~~~~~~~~~~~~
 
 *Salmonella* Typhi data in AMRnet are drawn from `Pathogenwatch <http://Pathogen.watch>`_, which calls AMR and `GenoTyphi<https://doi.org/10.1093/infdis/jiab414>`_ genotypes from genome assemblies. The *Salmonella* Typhi data in Pathogenwatch are curated by the `Global Typhoid Genomics Consortium <https://www.typhoidgenomics.org>`_, as described `here <https://doi.org/10.7554/eLife.85867>`_. The prevalence estimates shown are calculated using genome collections derived from non-targeted sampling frames (i.e. surveillance and burden studies, as opposed to AMR focused studies or outbreak investigations). Last update: XX.
 
@@ -41,8 +41,8 @@ Salmonella Typhi
 - **Ciprofloxacin NS**: ciprofloxacin non-susceptible (MIC >=0.06 mg/L, due to presence of one or more *qnr* genes or mutations in *gyrA/parC/gyrB*)
 - **Ciprofloxacin R**: ciprofloxacin resistant (MIC >=0.5 mg/L, due to presence of multiple mutations and/or genes)
 
-Klebsiella pneumoniae
-~~~~~~~~~~~~~~~~~~~~~
+*Klebsiella pneumoniae*
+~~~~~~~~~~~~~~~~~~~~~~~
 *Klebsiella pneumoniae* data are sourced from `Pathogenwatch <https://doi.org/10.1093/cid/ciab784>`_, which calls AMR (using `Kleborate <https://github.com/klebgenomics/Kleborate>`_) and genotypes (`MLST <https://doi.org/10.1128/jcm.43.8.4178-4182.2005>`_) from genomes assembled from public data. Last update: XX.
 
 **⚠️ Warning**: The *Klebsiella pneumoniae* data used in AMRnet are not yet curated for purpose-of-sampling, and therefore reflect the biases of global sequencing efforts which have been largely directed at sequencing ESBL and carbapenemase-producing strains or hypervirulent strains. Data curation efforts are ongoing however until then, please be careful when interpreting the data in the dashboard.
@@ -57,5 +57,22 @@ Klebsiella pneumoniae
 - **ESBL**: extended-spectrum beta-lactamase
 - **ST**: sequence type
 
+*Neisseria gonorrhoeae*
+~~~~~~~~~~~~~~~~~~~~~~~
+
+*Neisseria gonorrhoeae* data are sourced from `Pathogenwatch <https://doi.org/10.1186/s13073-021-00858-2>`_, which calls AMR and lineage `genotypes <https://pubmlst.org/neisseria/>`_ (`MLST <https://doi.org/10.1186/1741-7007-5-35>`_, `NG-MAST <https://doi.org/10.1086/383047>`_) from genomes assembled from public data. The prevalence estimates shown are calculated using genome collections derived from non-targeted sampling frames (i.e. surveillance and burden studies, as opposed to AMR focused studies or outbreak investigations). These include EuroGASP `2013 <https://doi.org/10.1016/s1473-3099(18)30225-1>`_ & `2018 <https://doi.org/10.1016/s2666-5247(22)00044-1>`_, and several national surveillance studies. Last update: XX.
+
+**Variable definitions**
+
+- **Genotypes**: sequence types from the `7-locus MLST scheme <https://doi.org/10.1128/jcm.43.8.4178-4182.2005>`_ for **Neisseria**, or 2-locus **N. gonorrhoeae** multi-antigen sequence typing (`NG-MAST <https://doi.org/10.1086/383047>`_) scheme, both hosted by `PubMLST <https://pubmlst.org/neisseria/>`_.
+- **AMR determinants** are identified by Pathogenwatch using an inhouse dictionary developed and maintained in consultation with an expert advisory group, described `here <https://doi.org/10.1186/s13073-021-00858-2>`_. 
+- **AMR determinants within genotypes** - This plot shows combinations of determinants that result in clinical resistance to Azithromycin or Ceftriaxone, as defined in Figure 3 of `Sánchez-Busó et al (2021) <https://doi.org/10.1186/s13073-021-00858-2>`_.
+- **Susceptible to cat I/II drugs** - No determinants found for Azithromycin, Ceftriaxone, Cefixime (category I) or Penicillin, Ciprofloxacin, Spectinomycin (category II).
 
 
+**Abbreviations**
+
+**MDR**: multi-drug resistant (Resistant to one of Azithromycin / Ceftriaxone / Cefixime [category I representatives], plus two or more of Penicillin / Ciprofloxacin / Spectinomycin [category II representatives])
+**XDR**: extensively drug resistant (Resistant to two of Azithromycin / Ceftriaxone / Cefixime [category I representatives], plus three of Penicillin / Ciprofloxacin / Spectinomycin [category II representatives])
+
+Note these definitions are based on those defined in the `European CDC Response Plan <https://www.ecdc.europa.eu/sites/default/files/documents/multi-and-extensively-drug-resistant-gonorrhoea-response-plan-Europe-2019.pdf>`_, modified to use the specific representatives of category I and II antibiotic classes that are available in the dashboard.
