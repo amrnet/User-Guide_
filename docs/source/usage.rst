@@ -47,13 +47,13 @@ Klebsiella pneumoniae
 
 **⚠️ Warning**: The *Klebsiella pneumoniae* data used in AMRnet are not yet curated for purpose-of-sampling, and therefore reflect the biases of global sequencing efforts which have been largely directed at sequencing ESBL and carbapenemase-producing strains or hypervirulent strains. Data curation efforts are ongoing however until then, please be careful when interpreting the data in the dashboard.
 
-Variable definitions
-• Genotypes: 7-locus MLST scheme for Klebsiella pneumoniae, maintained by Institut Pasteur.
-• AMR determinants are called using Kleborate v2, described here.
+**Variable definitions**
+**- Genotypes**: `7-locus MLST scheme <https://doi.org/10.1128/jcm.43.8.4178-4182.2005>`_ for Klebsiella pneumoniae, maintained by `Institut Pasteur <https://bigsdb.pasteur.fr/klebsiella/>`_.
+**- AMR determinants** are called using `Kleborate v2 <https://github.com/klebgenomics/Kleborate>`_, described `here<https://doi.org/10.1038/s41467-021-24448-3>`_.
 
-Abbreviations
-• ESBL: extended-spectrum beta-lactamase
-• ST: sequence type
+**Abbreviations**
+**- ESBL**: extended-spectrum beta-lactamase
+**- ST**: sequence type
 
 
 
