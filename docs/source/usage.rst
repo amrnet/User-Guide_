@@ -79,5 +79,9 @@ Individual pathogen details
 
    These definitions are based on those defined in the `European CDC Response Plan <https://www.ecdc.europa.eu/sites/default/files/documents/multi-and-extensively-drug-resistant-gonorrhoea-response-plan-Europe-2019.pdf>`_, modified to use the specific representatives of category I and II antibiotic classes that are available in the dashboard.
 
-These definitions are based on those defined in the `European CDC Response Plan <https://www.ecdc.europa.eu/sites/default/files/documents/multi-and-extensively-drug-resistant-gonorrhoea-response-plan-Europe-2019.pdf>`_, modified to use the specific representatives of category I and II antibiotic classes that are available in the dashboard.
+.. warning::
+    This is warning text. Use a warning for information the user must
+    understand to avoid negative consequences.
 
+    Warnings are formatted in the same way as notes. In the same way,
+    lines must be broken and indented under the warning tag.
