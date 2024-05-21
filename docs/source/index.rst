@@ -12,22 +12,10 @@ Find out more about the project team (based at London School of Hygiene and Trop
 The dashboard code is open access and available in `GitHub <https://github.com/amrnet/amrnet>`_. Issues and feature requests can be posted `here <https://github.com/amrnet/amrnet/issues>`_. An API is coming soon!
 
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
-
-.. note::
-
-   This project is under active development.
-
 Contents
 --------
 
 .. toctree::
 
-   usage
+   User guide page
    api
