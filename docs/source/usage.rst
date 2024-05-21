@@ -30,34 +30,17 @@ Individual pathogen details
 Salmonella Typhi
 ~~~~~~~~~~~~~~~~
 
-Salmonella Typhi data in AMRnet are drawn from Pathogenwatch, which calls AMR and GenoTyphi genotypes from genome assemblies. The Salmonella Typhi data in Pathogenwatch are curated by the Global Typhoid Genomics Consortium, as described here. The prevalence estimates shown are calculated using genome collections derived from non-targeted sampling frames (i.e. surveillance and burden studies, as opposed to AMR focused studies or outbreak investigations). Last update: XX.
+*Salmonella* Typhi data in AMRnet are drawn from `Pathogenwatch <http://Pathogen.watch>`_, which calls AMR and `GenoTyphi<https://doi.org/10.1093/infdis/jiab414>`_ genotypes from genome assemblies. The *Salmonella* Typhi data in Pathogenwatch are curated by the `Global Typhoid Genomics Consortium <https://www.typhoidgenomics.org>`_, as described `here <https://doi.org/10.7554/eLife.85867>`_. The prevalence estimates shown are calculated using genome collections derived from non-targeted sampling frames (i.e. surveillance and burden studies, as opposed to AMR focused studies or outbreak investigations). Last update: XX.
 
-Variable definitions
-• Genotypes: GenoTyphi scheme, see Dyson & Holt, 2021.
-• AMR determinants are described in the Typhi Pathogenwatch paper.
-• Travel-associated cases are attributed to the country of travel, not the country of isolation, see Ingle et al, 2019.
+**Variable definitions**
+**• Genotypes**: GenoTyphi scheme, see `Dyson & Holt, 2021 <https://doi.org/10.1093/infdis/jiab414>`_.
+**• AMR determinants** are described in the `Typhi Pathogenwatch paper <https://doi.org/10.1038/s41467-021-23091-2>`_.
+**• Travel-associated cases** are attributed to the country of travel, not the country of isolation, see `Ingle et al, 2019 <https://doi.org/10.1371/journal.pntd.0007620>`_.
 
-Abbreviations
-• MDR: multi-drug resistant (resistant to ampicillin, chloramphenicol, and trimethoprim-sulfamethoxazole)
-• XDR: extensively drug resistant (MDR plus resistant to ciprofloxacin and ceftriaxone)
-• Ciprofloxacin NS: ciprofloxacin non-susceptible (MIC >=0.06 mg/L, due to presence of one or more qnr genes or mutations in gyrA/parC/gyrB)
-• Ciprofloxacin R: ciprofloxacin resistant (MIC >=0.5 mg/L, due to presence of multiple mutations and/or genes)
-
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
-
-.. autofunction:: lumache.get_random_ingredients
-
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+**Abbreviations**
+**• MDR**: multi-drug resistant (resistant to ampicillin, chloramphenicol, and trimethoprim-sulfamethoxazole)
+**• XDR**: extensively drug resistant (MDR plus resistant to ciprofloxacin and ceftriaxone)
+**• Ciprofloxacin NS**: ciprofloxacin non-susceptible (MIC >=0.06 mg/L, due to presence of one or more *qnr* genes or mutations in *gyrA/parC/gyrB*)
+**• Ciprofloxacin R**: ciprofloxacin resistant (MIC >=0.5 mg/L, due to presence of multiple mutations and/or genes)
 
 
