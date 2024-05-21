@@ -17,5 +17,5 @@ Contents
 
 .. toctree::
 
-   User guide page
+   usage
    api
