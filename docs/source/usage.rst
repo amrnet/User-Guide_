@@ -49,13 +49,13 @@ Klebsiella pneumoniae
 
 **Variable definitions**
 
--** Genotypes**: `7-locus MLST scheme <https://doi.org/10.1128/jcm.43.8.4178-4182.2005>`_ for Klebsiella pneumoniae, maintained by `Institut Pasteur <https://bigsdb.pasteur.fr/klebsiella/>`_.
--** AMR determinants** are called using `Kleborate v2 <https://github.com/klebgenomics/Kleborate>`_, described `here<https://doi.org/10.1038/s41467-021-24448-3>`_.
+- **Genotypes**: `7-locus MLST scheme <https://doi.org/10.1128/jcm.43.8.4178-4182.2005>`_ for Klebsiella pneumoniae, maintained by `Institut Pasteur <https://bigsdb.pasteur.fr/klebsiella/>`_.
+- **AMR determinants** are called using `Kleborate v2 <https://github.com/klebgenomics/Kleborate>`_, described `here<https://doi.org/10.1038/s41467-021-24448-3>`_.
 
 **Abbreviations**
 
--** ESBL**: extended-spectrum beta-lactamase
--** ST**: sequence type
+- **ESBL**: extended-spectrum beta-lactamase
+- **ST**: sequence type
 
 
 
