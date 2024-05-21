@@ -30,7 +30,7 @@ Salmonella Typhi
 
 **Variable definitions**
 
-**• Genotypes**: GenoTyphi scheme, see `Dyson & Holt, 2021 <https://doi.org/10.1093/infdis/jiab414>`_.
+-**Genotypes**: GenoTyphi scheme, see `Dyson & Holt, 2021 <https://doi.org/10.1093/infdis/jiab414>`_.
 
 **• AMR determinants** are described in the `Typhi Pathogenwatch paper <https://doi.org/10.1038/s41467-021-23091-2>`_.
 
