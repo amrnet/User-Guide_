@@ -3,7 +3,7 @@ User guide page
 
 .. _installation:
 
-Installation
+Dashboard overview
 ------------
 
 To use Lumache, first install it using pip:
@@ -12,7 +12,7 @@ To use Lumache, first install it using pip:
 
    (.venv) $ pip install lumache
 
-Creating recipes
+Individual pathogen details
 ----------------
 
 To retrieve a list of random ingredients,
