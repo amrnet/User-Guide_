@@ -11,6 +11,10 @@ Find out more about the project team (based at London School of Hygiene and Trop
 
 The dashboard code is open access and available in `GitHub <https://github.com/amrnet/amrnet>`_. Issues and feature requests can be posted `here <https://github.com/amrnet/amrnet/issues>`_. An API is coming soon!
 
+Citation for AMRnet
+-------------------
+
+If you use the AMRnet website or code, please cite AMRnet (Louise Cerdeira, Vandana Sharma, Mary Maranga, Megan Carey, Zoe Dyson, Kat Holt), **GitHub**: https://github.com/amrnet/amrnet, **DOI**: 10.5281/zenodo.10810219
 
 Contents
 --------
