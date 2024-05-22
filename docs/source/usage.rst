@@ -79,28 +79,48 @@ Individual pathogen details
 
    These definitions are based on those defined in the `European CDC Response Plan <https://www.ecdc.europa.eu/sites/default/files/documents/multi-and-extensively-drug-resistant-gonorrhoea-response-plan-Europe-2019.pdf>`_, modified to use the specific representatives of category I and II antibiotic classes that are available in the dashboard.
 
-** *Shigella* + EIEC**
+**Shigella + EIEC**
 ~~~~~~~~~~~~~~~~~~~
-Shigella and enteroinvasive E. coli (EIEC) data in AMRnet are drawn from Enterobase, which calls AMR genotypes using NCBI’s AMRFinderPlus and assigns lineages using cgMLST and hierarchical clustering. Last update: XX.
+*Shigella* and enteroinvasive E. *coli* (EIEC) data in AMRnet are drawn from `Enterobase <https://enterobase.warwick.ac.uk/>`_, which calls AMR genotypes using NCBI’s `AMRFinderPlus <https://www.ncbi.nlm.nih.gov/pathogens/antimicrobial-resistance/AMRFinder/>`_ and assigns lineages using `cgMLST <https://doi.org/10.1101/gr.251678.119>`_ and `hierarchical clustering <https://doi.org/10.1093/bioinformatics/btab234>`_. Last update: XX.
 
-WARNING: The Shigella + EIEC data used in AMRnet are not yet curated for purpose-of-sampling, and therefore reflect the biases of global sequencing efforts which may be skewed towards sequencing AMR strains and/or outbreaks. Data curation efforts are ongoing however until then, please be careful when interpreting the data in the dashboard.
+.. warning:: 
+   
+   The *Shigella* + EIEC data used in AMRnet are not yet curated for purpose-of-sampling, and therefore reflect the biases of global sequencing efforts which may be skewed towards sequencing AMR strains and/or outbreaks. Data curation efforts are ongoing however until then, please be careful when interpreting the data in the dashboard.
 
-Variable definitions
-• Lineages: The logic used by Enterobase to classify genomes as Shigella or EIEC are detailed here. Shigella sonnei are monophyletic and labelled as lineage ‘S. sonnei’. For other Shigella, lineages are labeled by the species followed by the HC400 (HierCC) cluster ID (as this nomenclature has been shown to mirror the paraphyletic lineage structure of Shigella). EIEC lineages are labeled by ST (e.g. ‘EIEC ST99’).
-• AMR determinants: Enterobase identifies AMR determinants using NCBI’s AMRFinderPlus. AMRnet assigns these determinants to drugs/classes in the dashboard using the Subclass curated in refgenes.
+**Variable definitions**
+- **Lineages**: The logic used by `Enterobase <https://doi.org/10.1101/gr.251678.119>`_ to classify genomes as *Shigella* or EIEC are detailed `here <https://enterobase.readthedocs.io/en/latest/pipelines/backend-pipeline-phylotypes.html?highlight=shigella>`_. *Shigella sonnei* are monophyletic and labelled as lineage ‘S. *sonnei*’. For other *Shigella*, lineages are labeled by the species followed by the HC400 (`HierCC <https://enterobase.readthedocs.io/en/latest/features/clustering.html>`_) cluster ID (as this nomenclature has been `shown <https://doi.org/10.1038/s41467-022-28121-1>`_ to mirror the paraphyletic lineage structure of *Shigella*). EIEC lineages are labeled by ST (e.g. ‘EIEC ST99’).
+- **AMR determinants**: `Enterobase <https://enterobase.warwick.ac.uk/>`_ identifies AMR determinants using NCBI’s `AMRFinderPlus <https://www.ncbi.nlm.nih.gov/pathogens/antimicrobial-resistance/AMRFinder/>`_. AMRnet assigns these determinants to drugs/classes in the dashboard using the Subclass curated in `refgenes <https://doi.org/10.1099/mgen.0.000832>`_.
 
-Diarrheagenic E. coli
-Diarrheagenic E. coli data in AMRnet are drawn from Enterobase, which calls AMR genotypes using NCBI’s AMRFinderPlus and assigns lineages using MLST, cgMLST and hierarchical clustering. The logic used by Enterobase to classify E. coli genomes to pathotypes is shown here. Pathotypes included in the diarrheagenic E. coli dashboard are:
-Shiga toxin-producing E. coli (STEC)
-Enterohemorrhagic E. coli (EHEC)
-Enterotoxigenic E. coli (ETEC)
-Enteropathogenic E. coli (EPEC)
-Enteroinvasive E. coli (EIEC)
+**Diarrheagenic E. coli**
+~~~~~~~~~~~~~~~~~~~~~~~~~
+Diarrheagenic E. *coli* data in AMRnet are drawn from `Enterobase <https://enterobase.warwick.ac.uk/>`_, which calls AMR genotypes using NCBI’s `AMRFinderPlus <https://www.ncbi.nlm.nih.gov/pathogens/antimicrobial-resistance/AMRFinder/>`_ and assigns lineages using MLST, `cgMLST <https://doi.org/10.1101/gr.251678.119>`_ and `hierarchical clustering <https://doi.org/10.1093/bioinformatics/btab234>`_. The logic used by Enterobase to classify E. *coli* genomes to pathotypes is shown `here <https://enterobase.readthedocs.io/en/latest/pipelines/backend-pipeline-phylotypes.html?highlight=pathovar>`_. Pathotypes included in the diarrheagenic E. *coli* dashboard are:
+Shiga toxin-producing E. *coli* (STEC)
+Enterohemorrhagic E. *coli* (EHEC)
+Enterotoxigenic E. *coli* (ETEC)
+Enteropathogenic E. *coli* (EPEC)
+Enteroinvasive E. *coli* (EIEC)
 
 Last update: XX.
 
-WARNING: The E. coli data used in AMRnet are not yet curated for purpose-of-sampling, and therefore reflect the biases of global sequencing efforts which may be skewed towards sequencing AMR strains and/or outbreaks. Data curation efforts are ongoing however until then, please be careful when interpreting the data in the dashboard.
+.. warning:: 
+   The E. *coli* data used in AMRnet are not yet curated for purpose-of-sampling, and therefore reflect the biases of global sequencing efforts which may be skewed towards sequencing AMR strains and/or outbreaks. Data curation efforts are ongoing however until then, please be careful when interpreting the data in the dashboard.
 
-Variable definitions
-• Lineages: Lineages are labeled by the pathovar followed by the (7-locus) ST.
-• AMR determinants: Enterobase identifies AMR determinants using NCBI’s AMRFinderPlus. AMRnet assigns these determinants to drugs/classes in the dashboard using the Subclass curated in refgenes.
+**Variable definitions**
+
+- **Lineages**: Lineages are labeled by the pathovar followed by the (7-locus) ST.
+- **AMR determinants**: `Enterobase <https://enterobase.warwick.ac.uk/>`_ identifies AMR determinants using NCBI’s `AMRFinderPlus <https://www.ncbi.nlm.nih.gov/pathogens/antimicrobial-resistance/AMRFinder/>`_. AMRnet assigns these determinants to drugs/classes in the dashboard using the Subclass curated in `refgenes <https://doi.org/10.1099/mgen.0.000832>`_.
+
+
+**Invasive Non-Typhoidal Salmonella**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Invasive non-typhoidal *Salmonella* (iNTS) data in AMRnet are drawn from `Enterobase <https://enterobase.warwick.ac.uk/>`_, which calls AMR genotypes using NCBI’s `AMRFinderPlus <https://www.ncbi.nlm.nih.gov/pathogens/antimicrobial-resistance/AMRFinder/>`_, assigns lineages using MLST, `cgMLST <https://doi.org/10.1101/gr.251678.119>`_ and `hierarchical clustering <https://doi.org/10.1093/bioinformatics/btab234>`_, and assigns serotypes using `SISTR <https://doi.org/10.1371/journal.pone.0147101>`_. The iNTS dashboard currently includes all genomes identified as serotype Typhimurium or Enteritidis (which account for `>90% of iNTS <https://doi.org/10.1016/S1473-3099(21)00615-0>`_), and identifies lineages thereof using MLST. Last update: XX.
+
+.. warning:: 
+   The iNTS data used in AMRnet are not yet curated for purpose-of-sampling, and therefore reflect the biases of global sequencing efforts which may be skewed towards sequencing AMR strains and/or outbreaks. Data curation efforts are ongoing however until then, please be careful when interpreting the data in the dashboard.
+
+**Variable definitions**
+
+- **Lineages**: Lineages are labeled by the serotype followed by the (7-locus) ST.
+- **AMR determinants**: `Enterobase <https://enterobase.warwick.ac.uk/>`_ identifies AMR determinants using NCBI’s `AMRFinderPlus <https://www.ncbi.nlm.nih.gov/pathogens/antimicrobial-resistance/AMRFinder/>`_. AMRnet assigns these determinants to drugs/classes in the dashboard using the Subclass curated in `refgenes <https://doi.org/10.1099/mgen.0.000832>`_.
+
+
