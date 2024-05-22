@@ -1,5 +1,4 @@
-User guide page
-===============
+
 
 .. _installation:
 
