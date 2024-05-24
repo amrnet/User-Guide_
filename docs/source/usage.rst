@@ -38,6 +38,9 @@ Each plot has a dynamic legend to the right; click on an x-axis value to display
    :align: center
    :alt: header
 
+
+
+
 .. note:: 
    Please note PDF reports are not yet available for all organisms, they will be added in future updates.
 
