@@ -20,7 +20,7 @@ Dashboard overview
 
 Filters set in this panel apply not only to the map, but to all plots on the page. **Clicking on a country in the map** also functions as a filter, so that subsequent plots reflect data for the selected country only. 
 
-.. figure:: screencaptures/filters.png
+.. figure:: screencaptures/filter.png
    :width: 100%
    :align: center
    :alt: header
