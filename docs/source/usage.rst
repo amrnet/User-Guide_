@@ -6,12 +6,12 @@ Dashboard overview
 
 **Header**: Use the menu to **select a species or pathogen group** to display. Each pathogen has its own dashboard configuration that is customised to show genotypes, resistances and other relevant parameters. Numbers indicate the total number of genomes and genotypes currently available in the selected dashboard. 
 
-.. figure:: /screencaptures/header.png
+.. figure:: sourse/screencaptures/header.png
    :width: 60%
    :align: center
    :alt: header
 
-   GitHub Header
+   Header
 
 **Map**: Use the menu on the right to **select a variable to display per-country summary data** on the world map. Prevalence data are pooled weighted estimates of proportion for the selected resistance or genotype. Use the **filters on the left** to recalculate summary data for a specific time period and/or subgroup/s (options available vary by pathogen). A country must have N≥20 samples (using the current filters) for summary data to be displayed, otherwise it will be coloured grey to indicate insufficient data. 
 
