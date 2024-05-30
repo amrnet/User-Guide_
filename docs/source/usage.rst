@@ -1,5 +1,5 @@
-User guide page
-===============
+Dashboard User guide
+====================
 
 Dashboard overview
 ------------------
