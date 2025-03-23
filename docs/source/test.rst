@@ -1,7 +1,7 @@
-API
-===
+Test
+====
 
 .. autosummary::
    :toctree: generated
 
-   Use Guide
+   lumache
